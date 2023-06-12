@@ -3,69 +3,63 @@
 
 <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
     <title>Charles Chavis: Professional Developer</title>
-    <!-- Add viewport tags to trigger scaling -->
 </head>
 
 <body>
-
-    <header>
-        <h1>Charles <span class="titlename">Chavis</span></h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#aboutme">About me</a>
-                </li>
-                <li>
-                    <a href="#myapps">My Applications</a>
-                </li>
-                <li>
-                    <a href="#contactme">Contact Me</a>
-                </li>
-            </ul>
-        </nav>
+<!-- Navbar Links -->
+    <header class="nav">
+        <h1>Charles Chavis</h1>
+                <a href="#contactme">Contact Me</a>
+                <a href="#projects">Projects</a>
+                <a href="#aboutme">About me</a>
     </header>
 
-    
+<!-- About Me section     -->
+    <div class="aboutwrap">
+        <div class="aboutmetext" id="aboutme">
+            <h3>Hi, I'm Charles</h3>                
+        </div>
+        <div class="headshot">
+            <img src="./assets/images/headshot2.jpg" alt="picture-of-Charles-Chavis"/>
+        </div>
+        <div class="aboutme2">                
+            <h4>If you're reading this, you're probably looking for a full-stack developer that can improve your web presence.
+            If you're interested in discussing how I can provide a solution, let's have a chat!</h4>
+        </div>
+    </div>
 
-    <section class="aboutme" id="aboutme">
-        <img class="headshot" src="./assets/images/headshot.jpg" alt="picture-of-Charles-Chavis"/>
-        <article class="aboutmetext">
-            <h2>About Me</h2><br>
-            <p>
-                Imagine growing up in the age of computers and curiosuly exploring since the days of the IBM personal computer, playing floppy disk games as a child on a green and black monochrome screen, 
-                then evolving to Windows 95 on a Packard Bell desktop with a 75mhz processor with an 8-bit color palette and experimenting with games beyond pixelated graphics.  Then comes the Windows XP era
-                with 16-bit color and a young mind that is learning to write HTML during his teenage years as the internet continues to propagate and social media is being born.  That mind today is now finally taking
-                the next steps in chasing his lifelong love of technology by learning to develop.  
-            </p><br><br>
-            <p>
-                An accountant by day, he is, of course, an advanced Microsoft Excel user.  He is no stranger to syntax, he enjoys puzzles, he is analytical in nature.  The occasional sudoku, or daily crossword puzzle,
-                has not been enough to satisfy the need to solve.  Having played piano since the age of 5, taught himself guitar at 16, and has been a life-long vocalist (and former frontman of a band), music was
-                the typical outlet for creation.  So what environment is ideal for an analytical, creative individual with a love for technology?  You can find the results below.
-            </p>
-        <article>
-    </section>
+<!-- My Projects Section -->
+        <div class="myproj" id="projects">My Projects</div>
+            <div class="main">
+                <div class="bigcontain"><a href="https://chavisca.github.io/Refactor-for-Accessibility/"><img class="bigwork" src="./assets/images/refactor.jpg" alt="image-of-refactor-project" /></a>
+                <div class="bigtitle">Refactor for Accessibility</div></div>
+            </div>
+            <div class="others">
+                <div class="o1"><a href="http://www.google.com"><img class="phldr" src="./assets/images/400xplaceholder.png" alt="400x400-placeholder-image" /></a>
+                <div class="littletitle">Coming Soon</div></div>
+                <div class="o2"><a href="http://www.yahoo.com"><img class="phldr" src="./assets/images/400xplaceholder.png" alt="400x400-placeholder-image" /></a>
+                <div class="littletitle">One Day in the Future</div></div>
+                <div class="o3"><a href="http://www.bing.com"><img class="phldr" src="./assets/images/400xplaceholder.png" alt="400x400-placeholder-image" /></a>
+                <div class="littletitle">Eventually</div></div>
+                <div class="o4"><a href="http://www.askjeeves.com"><img class="phldr" src="./assets/images/400xplaceholder.png" alt="400x400-placeholder-image" /></a>
+                <div class="littletitle">To be Continued...</div></div>
+            </div>
+        </div>
+<!-- Contact Me Section -->
 
-    <section class="myapps" id="myapps">
-        <h2>My Applications</h2>
-        <p>
-            <!-- Add Refactor for Accessibility image that links to deployed application site (should be larger than other images) -->
-        </p>
-</section>
+        <h5>Contact Me:</h5>
+        <div class="contact" id="contactme">
+                <div class="item1"><img class="icon" src="./assets/images/phone.png" />(919) 218-7908</div>
+                <div class="item2"><a href="mailto: chavisca@gmail.com"><img class ="icon" src="./assets/images/gmaillogo.png" />Email me!</a></div>
+                <div class="item3"><a href="https://github.com/chavisca"><img class ="icon" src="./assets/images/github-mark.png" /><img class ="icon2" src="./assets/images/github-logo.png" /></a></div>
+            
+        </div>
 
-<section class="contactme" id="contactme">
-    <h2>Contact Me</h2>
-    <p>
-        <!-- Add number, email, github, any other relevant links -->
-    </p>
-</section>
-
-    <footer class="footer">
-        <h4>For Your Development Needs</h4>
-        <p>
-            &copy; 2023 by Charles Chavis
-        </p>
+    <footer>
+        <p>&copy; 2023</p>
     </footer>
 
 </body>
